@@ -8,17 +8,17 @@ class PatientAccount{
 		
 		// Member variables that contain the patient's details
 		string patientName; 	// patient's name
-		int patientAge; 		  // patient's age
+		int patientAge;         // patient's age
 		char patientGender; 	// patient's gender
-		string diagnosis; 		// the patient's medical condition 
-		float charges; 			  // charges that is inclusive of the daily rate, surgical cost, and medication cost.
-		int days; 				    // number of days stayed at the hospital 
+		string diagnosis;       // the patient's medical condition 
+		float charges; 	        // charges that is inclusive of the daily rate, surgical cost, and medication cost.
+		int days; 		// number of days stayed at the hospital 
 	
 	public:
 		
 		void patientAccount(string n, int a, char g, string mC, float c, int d); // Prototype for function to store patient's details
 		
-		void displayPatientAccountInfo(void); 									 // Prototype for function to display the patient's account info
+		void displayPatientAccountInfo(void); // Prototype for function to display the patient's account info
 		
 		string getPatientName();
 		
